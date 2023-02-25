@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 0, 39);
+    background: linear-gradient(90deg, rgba(255, 0, 39, 1) 0%, rgba(255, 8, 67, 1) 25%, rgba(127, 39, 252, 1) 100%);
+    transform: rotate(-10deg);
+    align-items: center;
+}
+
+.frem {
+    width: 16rem;
+    height: 23rem;
+    background: #181a1c;
+    border-radius: 39px;
+    position: relative;
+    padding: 23px;
+    box-shadow: 10px 12px 20px #181a1c52;
+}
+
+.top-cant {
+    width: 100%;
+    height: 11rem;
+    position: relative;
+    border-radius: 29px 14px;
+    background: #212324;
+}
+
+.top-cant .img {
+    width: 100%;
+    height: 11rem;
+    position: relative;
+    border-radius: 29px 14px;
+    background: url(https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/318954559_690647675876137_6682904826578009452_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeG7iukTqWV9oe2JAlPdmWjRdIZPUjwc88N0hk9SPBzzwwIChtbDFga6rh1yCoj_odgrw1vjbroXTc8EVB5jXR5-&_nc_ohc=X5bVRtrZ3N0AX_DknYa&tn=sDDEgNsB0il2P6Qh&_nc_ht=scontent.fmex19-1.fna&oh=00_AfBOVOdC9eVjgYTVvINUTSDy1LEaKjwx6SGbcnelWbroEw&oe=63FFDE84);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-cant .row {
+    position: absolute;
+    width: 7rem;
+    height: 3rem;
+    top: 169px;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top-cant .row .like,
+.top-cant .row .comments {
+    width: 44px;
+    height: 44px;
+    background: #181a1c url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-HZgvgWscpjQ%2FTn_BE62WjuI%2FAAAAAAAABow%2FSzBzEUL6gr0%2Fs1600%2F1%2BCORAZON.bmp&f=1&nofb=1&ipt=1cf3e686cac11e0a9ef453ff12a557b112a21bf0a2bc08ebff4b96761146dee0&ipo=images);
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    border-radius: 17px;
+    cursor: pointer;
+    box-shadow: 2px 9px 20px #00000099;
+}
+
+.top-cant .row .comments {
+    background: #181a1c url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.envato.com%2Ffiles%2F266374052%2F02.jpg&f=1&nofb=1&ipt=0a7840ffbacd76bd1866fff3f287b759b7e6eb5be5c24bfa4d2f02282ba8c152&ipo=images);
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.frem .text-area {
+    position: absolute;
+    top: 14rem;
+    width: 14rem;
+}
+
+.frem .text-area h3 {
+    color: white;
+    font-family: cursive;
+}
+
+.frem .text-area p {
+    color: #7fffd4;
+    margin-top: 5px;
+    font-size: 11px;
+    font-family: cursive;
+}
+
+.frem .comments-area {
+    width: 246px;
+    height: 43px;
+    position: absolute;
+    bottom: 0.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.frem .comments-area input {
+    width: 10rem;
+    height: 46px;
+    border: none;
+    background: #26272b;
+    border-radius: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    font-family: cursive;
+}
+
+.frem .comments-area .send {
+    width: 44px;
+    height: 44px;
+    background: #0e46fe url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.lovepik.com%2Felement%2F40115%2F6129.png_1200.png&f=1&nofb=1&ipt=4edd370f292258cb5d0d63a2bfaa762f83e6b05111b9bdceecfa4ec2675892c5&ipo=images);
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    border-radius: 17px;
+    cursor: pointer;
+}
